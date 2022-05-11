@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Adalberto Parra Salas">
+    <title>Membership</title>
+
+    <script src="javaStyle.js" defer></script>
+    <script src="javaStyle2.js" defer></script>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style1.css">
+    
+
+</head>
+<body>
+    <header>
+		<nav class="navegacion">
+			<ul class="menu">
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="#">Membership</a>
+        <ul class="subMembership">
+						<li><a href="Membership.html">Application</a></li>
+						<li><a href="#">Account</a></li>
+						<li><a href="#">Services</a></li>
+					</ul>
+        </li>
+				<li><a href="#">About Us</a>
+					<ul class="subAboutUs">
+						<li><a href="AboutUs.html">Gym Info</a></li>
+						<li><a href="#">Employees</a></li>
+						<li><a href="#">Machines</a></li>
+					</ul>
+          
+				</li>
+				<li><a href="#">Contact</a>
+          <ul class="subAboutUs">
+						<li><h5 style="color: white;">Phone number: 646 540 xxxx</h5></li>
+						<li><h5 style="color: white;">Email: Gym@gmail.com</h5></li>
+					</ul>
+        </li>
+			</ul>
+		</nav>
+	</header>
+    <fieldset style="background-color: lightblue;">
+    <form name="applicationForm" onsubmit="return validateForm()">
+        <h2>Application Form</h2>
+        <div class="row">
+            <label>Full Name</label>
+            <input type="text" name="name">
+            <div class="error" id="nameErr"></div>
+        </div>
+        <div class="row">
+            <label>Email Address</label>
+            <input type="text" name="email">
+            <div class="error" id="emailErr"></div>
+        </div>
+        <div class="row">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" maxlength="10">
+            <div class="error" id="mobileErr"></div>
+        </div>
+        <div class="row">
+            <label>City </label>
+            <select name="city" required>
+                <option>Select</option>
+                <option>Bronx</option>
+                <option>Manhattan</option>
+                <option>Brooklyn</option>
+                <option>Queens</option>
+            </select> 
+            <div class="error" id="countryErr"></div>
+        </div>
+        <div class="row">
+            <label>Gender</label>
+            <div class="form-inline">
+                <label><input type="radio" name="gender" value="male" > Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label> 
+            </div>
+            <div class="error" id="genderErr"></div>
+        </div>
+        <div class="row">
+            <label>Activities <i>(Optional)</i></label>
+            <div class="form-inline">
+                <label><input type="checkbox" name="activities[]" value="running"> Running</label>
+                <label><input type="checkbox" name="activities[]" value="weights"> Weights</label>
+                <label><input type="checkbox" name="activities[]" value="bicycle"> Bicycle</label>
+                <label><input type="checkbox" name="activities[]" value="swimming"> Swimming</label>  
+            </div>
+        
+        </div>        
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+         </fieldset>
+</body>
+</html>

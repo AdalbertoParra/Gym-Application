@@ -1,0 +1,25 @@
+.main {
+    margin-bottom: 360px;
+  }
+  .bycicle {
+    height: 170px;
+    width: 250px;
+    display: inline-block;
+  }
+  .swimming {
+    height: 170px;
+    width: 250px;
+    display: inline-block;
+  }
+  .running {
+    height: 170px;
+    width: 250px;
+    display: inline-block;
+  }
+  .Img{
+    height: 170px;
+    width: 250px;
+    display: inline;
+  }
+
+  

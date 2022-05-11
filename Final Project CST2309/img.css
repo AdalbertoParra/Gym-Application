@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .swimming img {
+        vertical-align: middle;
+        position: absolute;
+        bottom: 220px;
+        right: 623px;
+        width: 383px;
+        height: 240px;
+    }
+  
+  .swimming .content {
+        position: absolute;
+        bottom: 220px;
+        right: 623px;
+        background-color: black;
+        color: white;
+        padding-left: 1px;
+        padding-right: 1px;
+  }
+
+  .running img {
+    vertical-align: middle;
+    position: absolute;
+    bottom: 220px;
+    right: 1100px;
+    width: 420px;
+    height: 240px;
+}
+
+.running .content {
+    position: absolute;
+    bottom: 220px;
+    right: 1100px;
+    background-color: black;
+    color: white;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.bycicle img {
+    vertical-align: middle;
+    position: absolute;
+    bottom: 220px;
+    right: 150px;
+    width: 380px;
+    height: 240px;
+}
+
+.bycicle .content {
+    position: absolute;
+    bottom: 220px;
+    right: 150px;
+    background-color: black;
+    color: white;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+  

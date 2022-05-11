@@ -1,0 +1,48 @@
+div.formRow {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+ }
+ div.formRow > * {
+    flex: 1 1 150px;
+ }
+ form#Registration {
+    display: flex;
+    flex-flow: row wrap;
+ }
+ form#Registration > fieldset {
+    background-color: rgb(76, 77, 158);
+    border-radius: 20px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+ }
+ 
+ /* Legend Styles */
+ legend {
+    background-color: rgb(4, 13, 138);
+    color: white;
+    padding: 5px;
+ }
+ 
+ 
+ 
+ 
+ /* Spinner Styles */
+ div.formRow > input#GoToGym {
+    flex: 0 0 50px;
+ }
+ 
+ 
+ /* Form Button Styles */
+ div#buttons {
+    text-align: center;
+    width: 100%;
+ }
+ input[type='submit'], input[type='reset'] {
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+ }
+ 
